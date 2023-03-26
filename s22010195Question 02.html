@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Question 02</title>
+</head>
+
+<body>
+  <div id="app">
+    <label for="mood-select">Select your mood:</label>
+    <select id="mood-select" v-model="selectedMood">
+      <option value="exhausted">1. I am Exhausted</option>
+      <option value="blissful">2. I am blissful</option>
+    </select>
+    <p v-if="selectedMood === 'exhausted'">Take some rest</p>
+    <p v-else>Thank God</p>
+  </div>
+
+
+
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          selectedMood: ''
+        }
+      }
+    })
+
+    app.mount('#app')
+  </script>
+
+
+
+
+</body>
+</html>

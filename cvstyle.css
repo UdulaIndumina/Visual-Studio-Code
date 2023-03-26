@@ -1,0 +1,43 @@
+h1{
+background-color: rgb(2, 120, 45);
+    text-align: center;
+    font-size: 80px;
+    color:rgb(255, 255, 255)   
+}
+body{
+    background-color: rgb(17, 27, 12);
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+   
+}
+h4{
+    text-align: center;
+    color: darkseagreen;
+}
+img{
+   
+    width: 400px;
+    height: 420px;
+    border: 5px solid;
+
+    border-radius: 100px 100px 100px 100px;
+    border-top: 20px;
+    float:left;
+}
+h2{
+    background-color: rgb(34, 244, 19);
+    text-align: center;
+
+}
+section{
+    text-align:left;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding: right 0px;
+
+}
+.p1{
+    text-align:center;
+}

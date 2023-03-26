@@ -1,0 +1,36 @@
+.grocery-list {
+    border: 5px solid rgb(81, 254, 0);
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+  
+.item {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: inline-block;
+    width: 150px;
+}
+  
+input {
+    width: 60px;
+}
+  
+.price {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+  
+.total {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+no{
+    border: 5px solid; 
+}
